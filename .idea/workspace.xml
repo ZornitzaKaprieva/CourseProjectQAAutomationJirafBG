@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7a180c4-5ad7-4a93-a3a0-5427c0f539fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/TestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/taskConditionReadOnly" afterDir="false" />
+    <list default="true" id="e7a180c4-5ad7-4a93-a3a0-5427c0f539fd" name="Changes" comment="Course project: structure">
+      <change afterPath="$PROJECT_DIR$/src/test/testing/testingCourseProjectTaskOnly.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/taskConditionReadOnly" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +46,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/QA/domashni i upravneniq/Java/CourseProjectQAAutomationJirafBG/src/test/resources"
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "D:/QA/domashni i upravneniq/Java/CourseProjectQAAutomationJirafBG/src/test/testing"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -69,6 +64,18 @@
       <option name="presentableId" value="Default" />
       <updated>1677481738986</updated>
     </task>
+    <task id="LOCAL-00001" summary="Course project: structure">
+      <created>1677482662536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677482662536</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Course project: structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course project: structure" />
   </component>
 </project>

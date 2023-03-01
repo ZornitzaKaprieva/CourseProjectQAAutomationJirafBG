@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite thread-count="3" verbose="1" name="SeleniumTestsJirafBgCourseProject"
+       annotations="JDK" parallel="tests">
+
+
+    <test name="LoginSuit" >
+        <classes>
+
+        </classes>
+    </test>
+
+    <test name="AddToCartSuit">
+        <classes>
+
+        </classes>
+    </test>
+
+    <test name="CheckoutSuit">
+        <classes>
+
+        </classes>
+    </test>
+
+</suite>
