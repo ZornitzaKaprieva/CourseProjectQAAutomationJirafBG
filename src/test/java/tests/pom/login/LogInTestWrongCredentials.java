@@ -1,4 +1,4 @@
-package tests.pom;
+package tests.pom.login;
 
 import base.TestUtil;
 import org.openqa.selenium.By;

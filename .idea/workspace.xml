@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7a180c4-5ad7-4a93-a3a0-5427c0f539fd" name="Changes" comment="Course project: structure">
-      <change afterPath="$PROJECT_DIR$/src/test/testing/testingCourseProjectTaskOnly.xml" afterDir="false" />
+    <list default="true" id="e7a180c4-5ad7-4a93-a3a0-5427c0f539fd" name="Changes" comment="LogInTestWrongCredentials added">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/taskConditionReadOnly" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +45,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "D:/QA/domashni i upravneniq/Java/CourseProjectQAAutomationJirafBG/src/test/testing"
+    "last_opened_file_path": "D:/QA/domashni i upravneniq/Java/SeleniumTestsJirafBgCourseProject"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\QA\domashni i upravneniq\Java\CourseProjectQAAutomationJirafBG\src\test\resources" />
+      <recent name="D:\QA\domashni i upravneniq\Java\CourseProjectQAAutomationJirafBG\src\test\readOnly" />
+      <recent name="D:\QA\domashni i upravneniq\Java\CourseProjectQAAutomationJirafBG\src\test\testing" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\QA\domashni i upravneniq\Java\CourseProjectQAAutomationJirafBG\src\test\readOnly" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.pom" />
+      <recent name="pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,11 +78,185 @@
       <option name="project" value="LOCAL" />
       <updated>1677482662536</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New directories added">
+      <created>1677679076162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677679076163</updated>
+    </task>
+    <task id="LOCAL-00003" summary="BasePage added">
+      <created>1677843288158</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677843288158</updated>
+    </task>
+    <task id="LOCAL-00004" summary="config.properties added">
+      <created>1677843364570</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677843364570</updated>
+    </task>
+    <task id="LOCAL-00005" summary="correctCredentials.csv added">
+      <created>1677843465122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677843465122</updated>
+    </task>
+    <task id="LOCAL-00006" summary="wrongCredentials.csv added">
+      <created>1677843530108</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677843530108</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Task condition added">
+      <created>1677843762425</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677843762425</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Task condition added">
+      <created>1677913044178</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677913044178</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Task condition added">
+      <created>1677913120271</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677913120271</updated>
+    </task>
+    <task id="LOCAL-00010" summary="loginCategoriesItems.csv added">
+      <created>1677913178625</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677913178625</updated>
+    </task>
+    <task id="LOCAL-00011" summary="deliveryDetails.csv added">
+      <created>1677913253396</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677913253396</updated>
+    </task>
+    <task id="LOCAL-00012" summary="homePageItems.csv added">
+      <created>1677913290409</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677913290409</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Home Page added">
+      <created>1678115386136</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678115386136</updated>
+    </task>
+    <task id="LOCAL-00014" summary="LogInPage added">
+      <created>1678115440728</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678115440728</updated>
+    </task>
+    <task id="LOCAL-00015" summary="MyProfilePage added">
+      <created>1678115512016</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678115512016</updated>
+    </task>
+    <task id="LOCAL-00016" summary="CartPage added">
+      <created>1678115570637</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678115570637</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ProductPage added">
+      <created>1678175343925</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678175343925</updated>
+    </task>
+    <task id="LOCAL-00018" summary="CheckOut added">
+      <created>1678175409078</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678175409078</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ConfirmedOrder Page added">
+      <created>1678175452659</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678175452659</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Categories added">
+      <created>1678175549837</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678175549837</updated>
+    </task>
+    <task id="LOCAL-00021" summary="TestUtil added">
+      <created>1678283189247</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1678283189247</updated>
+    </task>
+    <task id="LOCAL-00022" summary="LogInTestCorrectCredentials added">
+      <created>1678283232366</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678283232366</updated>
+    </task>
+    <task id="LOCAL-00023" summary="LogInTestWrongCredentials added">
+      <created>1678283268641</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1678283268641</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Course project: structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Course project: structure" />
+    <MESSAGE value="New directories added" />
+    <MESSAGE value="BasePage added" />
+    <MESSAGE value="config.properties added" />
+    <MESSAGE value="correctCredentials.csv added" />
+    <MESSAGE value="wrongCredentials.csv added" />
+    <MESSAGE value="Task condition added" />
+    <MESSAGE value="loginCategoriesItems.csv added" />
+    <MESSAGE value="deliveryDetails.csv added" />
+    <MESSAGE value="homePageItems.csv added" />
+    <MESSAGE value="Home Page added" />
+    <MESSAGE value="LogInPage added" />
+    <MESSAGE value="MyProfilePage added" />
+    <MESSAGE value="CartPage added" />
+    <MESSAGE value="ProductPage added" />
+    <MESSAGE value="CheckOut added" />
+    <MESSAGE value="ConfirmedOrder Page added" />
+    <MESSAGE value="Categories added" />
+    <MESSAGE value="TestUtil added" />
+    <MESSAGE value="LogInTestCorrectCredentials added" />
+    <MESSAGE value="LogInTestWrongCredentials added" />
+    <option name="LAST_COMMIT_MESSAGE" value="LogInTestWrongCredentials added" />
   </component>
 </project>
