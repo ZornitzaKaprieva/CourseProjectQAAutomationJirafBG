@@ -6,19 +6,22 @@
 
     <test name="LoginSuit" >
         <classes>
-
+            <class name="tests.pom.login.LogInTestCorrectCredentials"/>
+            <class name="tests.pom.login.LogInTestWrongCredentials"/>
         </classes>
     </test>
 
     <test name="AddToCartSuit">
         <classes>
-
+            <class name="tests.pom.add.to.cart.AddToCart3ItemsFromHomePageAfterLogInItemFinalXpathProducts"/>
+            <class name="tests.pom.add.to.cart.AddToCart3ItemsFromHomePageAfterLogInItemCsv"/>
         </classes>
     </test>
 
     <test name="CheckoutSuit">
         <classes>
-
+            <class name="tests.pom.checkout.CheckOutWith6ProductsWithoutApprovalWindowAndCompletedOrderDetails"/>
+            <class name="tests.pom.checkout.CheckOutWith6ProductsWithoutApprovalWindowAndCompletedOrderDetailsWithLoginCatItemsCsv"/>
         </classes>
     </test>
 
