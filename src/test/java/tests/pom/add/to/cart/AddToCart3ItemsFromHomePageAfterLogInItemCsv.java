@@ -1,21 +1,29 @@
 package tests.pom.add.to.cart;
 
 import base.TestUtil;
+import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvException;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LogInPage;
 import pages.MyProfilePage;
 import pages.ProductPage;
 
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.List;
+
 public class AddToCart3ItemsFromHomePageAfterLogInItemCsv extends TestUtil {
 
     //RESUME: вариант с данни от .csv файл за айтемите (логинът е хардкорнат)
 
-    @Test(dataProvider = "homePageItems")
+    @Test(dataProvider = "homePageItems")//управляваме през тестовите данни (през самите параметри)
 
-    public void addToCart3ItemsFromHomePageAfterLogInItemParam (String xpathItem1, String xpathItem2,String xpathItem3) {
+    public void addToCart3ItemsFromHomePageAfterLogInItemItemCsv (String xpathItem1, String xpathItem2,String xpathItem3) {
 
+        //подреденият вариант с final assertion and param: (не можем да сложим параметри за повече от един продукт, тъй като, за да се поръча, следва да се мине през страницата на конкретния продукт
         HomePage homePage = new HomePage(driver); //един page, един обект
         LogInPage logInPage = new LogInPage(driver); //един page, един обект
         MyProfilePage myProfilePage = new MyProfilePage(driver);
@@ -35,17 +43,20 @@ public class AddToCart3ItemsFromHomePageAfterLogInItemCsv extends TestUtil {
 
         //item1:
         homePageItem1.selectItemFromHomePageParam(xpathItem1);
-        item1.goToHomePageAfterAddToCartByClickingOnProductPage();
+        item1.goToHomePageAfterAddToCart(); //методът с pop-up прозореца
+        //item1.goToHomePageAfterAddToCartByClickingOnProductPage();//методът без pop-up прозореца
         Assert.assertEquals(item1.getHowManyItemsInTheCart(), "КОЛИЧКА: 1", "Problem with addToCartCounter");
 
         //item2:
         homePageItem2.selectItemFromHomePageParam(xpathItem2);
-        item2.goToHomePageAfterAddToCartByClickingOnProductPage();
+        item2.goToHomePageAfterAddToCart(); //методът с pop-up прозореца
+        //item2.goToHomePageAfterAddToCartByClickingOnProductPage(); //методът без pop-up прозореца
         Assert.assertEquals(item2.getHowManyItemsInTheCart(), "КОЛИЧКА: 2", "Problem with addToCartCounter");
 
         //item3:
         homePageItem3.selectItemFromHomePageParam(xpathItem3);
-        item3.goToHomePageAfterAddToCartByClickingOnProductPage();
+        item3.goToHomePageAfterAddToCart(); //методът с pop-up прозореца
+        //item3.goToHomePageAfterAddToCartByClickingOnProductPage();//методът без pop-up прозореца
 
         Assert.assertEquals(item3.getHowManyItemsInTheCart(), "КОЛИЧКА: 3", "Problem with addToCartCounter");
     }

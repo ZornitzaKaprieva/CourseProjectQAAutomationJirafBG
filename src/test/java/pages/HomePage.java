@@ -83,6 +83,16 @@ public class HomePage extends BasePage {
         itemFromHomePageToBeSelected.click();
     }
 
+    public void selectItemFromHomePageFinderParam(String finder){
+
+        if (agreeBtn.isDisplayed()){
+            agreeBtn.click();
+        }
+
+        WebElement itemFromHomePageToBeSelected = driver.findElement(By.xpath(finder));
+        itemFromHomePageToBeSelected.click();
+    }
+
     // методи за селектиране на категория по клас:
 
     //за всички категории:

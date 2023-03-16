@@ -34,7 +34,8 @@ public class AddToCart3ItemsFromHomePageAfterLogInItemFinalXpathProducts extends
 
         //item1:
         homePageItem1.selectItemFromHomePageParam("[1]/div/div[2]/h3");
-        item1.goToHomePageAfterAddToCartByClickingOnProductPage();
+        item1.goToHomePageAfterAddToCart(); //методът с pop-up прозореца
+        //item1.goToHomePageAfterAddToCartByClickingOnProductPage(); //методът без pop-up прозореца
         Assert.assertEquals(item1.getHowManyItemsInTheCart(), "КОЛИЧКА: 1", "Problem with addToCartCounter");
 
 
