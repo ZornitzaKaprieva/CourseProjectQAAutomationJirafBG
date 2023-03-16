@@ -70,7 +70,7 @@ public class TestUtil {
         return new EdgeDriver();
     }
 
-    private void readConfig(String filePath) { //не е особено ясно защо е с try-catch todo
+    private void readConfig(String filePath) {
         try {
             FileInputStream configFile = new FileInputStream(filePath);//иска throws IOException
             Properties config =  new Properties();
@@ -147,10 +147,9 @@ public class TestUtil {
             System.out.println("Something went wrong!");
             return null;
         }
-
     }
 
-    @DataProvider(name = "loginCategoriesItems") //името на DataProvider, който ще използваме
+       @DataProvider(name = "loginCategoriesItems") //името на DataProvider, който ще използваме
     public static Object[][] readLoginCategoriesItemsCsv(){
         try{
             CSVReader csvReader = new CSVReader(new FileReader("src/test/resources/loginCategoriesItems.csv")); // има ексепшън, който трябва да хванем (IOException)

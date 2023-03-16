@@ -12,7 +12,7 @@ public class ProductPage extends BasePage {
     @FindBy(className = "add")//(xpath = "/html/body/main/section/div/div/div/section/div[2]/div[2]/div[3]/div[2]/form/div[2]/div[2]/div/button")
     private WebElement addToCartButton;
 
-    @FindBy(xpath = "/html/body/div[6]/div/div/div[2]/div/div[2]/div/div/button")  //todo
+    @FindBy(xpath = "/html/body/div[6]/div/div/div[2]/div/div[2]/div/div/button")  //todo now
     private WebElement continueToShoppingButton;
 
     @FindBy(xpath = "/html/body/div[6]/div/div/div[2]/div/div[2]/div/div/a/i") //todo
@@ -26,6 +26,13 @@ public class ProductPage extends BasePage {
     public ProductPage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
+    }
+
+    public HomePage goToHomePageAfterAddToCart(){
+        addToCartButton.click();
+        continueToShoppingButton.click();
+        homePageBtn.click();
+        return new HomePage(driver);
     }
 
     public HomePage goToHomePageAfterAddToCartByClickingOnProductPage(){

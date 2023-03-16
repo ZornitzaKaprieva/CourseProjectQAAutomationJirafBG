@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7a180c4-5ad7-4a93-a3a0-5427c0f539fd" name="Changes" comment="LogInTestWrongCredentials added">
+    <list default="true" id="e7a180c4-5ad7-4a93-a3a0-5427c0f539fd" name="Changes" comment="goToHomePageAfterAddToCart(); method added">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1f1d66e7235e1cda4d07b2c678428007663fc49" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MyProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MyProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "D:/QA/domashni i upravneniq/Java/SeleniumTestsJirafBgCourseProject"
+    "last_opened_file_path": "D:/QA/domashni i upravneniq/Java/CourseProjectQAAutomationJirafBG/src/test/resources"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -58,9 +64,122 @@
       <recent name="D:\QA\domashni i upravneniq\Java\CourseProjectQAAutomationJirafBG\src\test\readOnly" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.pom.add.to.cart" />
+      <recent name="tests.pom.checkout" />
       <recent name="tests.pom" />
       <recent name="pages" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AddToCart3ItemsFromHomePageAfterLogInItemCsv.addToCart3ItemsFromHomePageAfterLogInItemItemCsv">
+    <configuration name="AddToCart3ItemsFromHomePageAfterLogInItemCSSCsv.addToCart3ItemsFromHomePageAfterLogInItemItemCsv" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestsJirafBg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.pom.add.to.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.pom.add.to.cart" />
+      <option name="MAIN_CLASS_NAME" value="tests.pom.add.to.cart.AddToCart3ItemsFromHomePageAfterLogInItemCSSCsv" />
+      <option name="METHOD_NAME" value="addToCart3ItemsFromHomePageAfterLogInItemItemCsv" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddToCart3ItemsFromHomePageAfterLogInItemCsv.addToCart3ItemsFromHomePageAfterLogInItemItemCsv" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestsJirafBg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.pom.add.to.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.pom.add.to.cart" />
+      <option name="MAIN_CLASS_NAME" value="tests.pom.add.to.cart.AddToCart3ItemsFromHomePageAfterLogInItemCsv" />
+      <option name="METHOD_NAME" value="addToCart3ItemsFromHomePageAfterLogInItemItemCsv" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddToCart3ItemsFromHomePageAfterLogInItemCsv.addToCart3ItemsFromHomePageAfterLogInItemParam" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestsJirafBg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.pom.add.to.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.pom.add.to.cart" />
+      <option name="MAIN_CLASS_NAME" value="tests.pom.add.to.cart.AddToCart3ItemsFromHomePageAfterLogInItemCsv" />
+      <option name="METHOD_NAME" value="addToCart3ItemsFromHomePageAfterLogInItemParam" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddToCart3ItemsFromHomePageAfterLogInItemFinalXpathProducts.addToCart3ItemsFromHomePageAfterLogInItemFinalXpathProducts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestsJirafBg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.pom.add.to.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.pom.add.to.cart" />
+      <option name="MAIN_CLASS_NAME" value="tests.pom.add.to.cart.AddToCart3ItemsFromHomePageAfterLogInItemFinalXpathProducts" />
+      <option name="METHOD_NAME" value="addToCart3ItemsFromHomePageAfterLogInItemFinalXpathProducts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/QA/domashni i upravneniq/Java/CourseProjectQAAutomationJirafBG/src/test/testing/testingCourseProjectTaskOnly.xml" type="TestNG" nameIsGenerated="true">
+      <module name="SeleniumTestsJirafBg" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testing/testingCourseProjectTaskOnly.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewAddToCart3ItemsFromHomePageAfterLogInItemCsv.addToCart3ItemsFromHomePageAfterLogInItemItemCsv" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestsJirafBg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.pom.add.to.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.pom.add.to.cart" />
+      <option name="MAIN_CLASS_NAME" value="tests.pom.add.to.cart.NewAddToCart3ItemsFromHomePageAfterLogInItemCsv" />
+      <option name="METHOD_NAME" value="addToCart3ItemsFromHomePageAfterLogInItemItemCsv" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AddToCart3ItemsFromHomePageAfterLogInItemCsv.addToCart3ItemsFromHomePageAfterLogInItemItemCsv" />
+        <item itemvalue="TestNG.AddToCart3ItemsFromHomePageAfterLogInItemCSSCsv.addToCart3ItemsFromHomePageAfterLogInItemItemCsv" />
+        <item itemvalue="TestNG.AddToCart3ItemsFromHomePageAfterLogInItemFinalXpathProducts.addToCart3ItemsFromHomePageAfterLogInItemFinalXpathProducts" />
+        <item itemvalue="TestNG.NewAddToCart3ItemsFromHomePageAfterLogInItemCsv.addToCart3ItemsFromHomePageAfterLogInItemItemCsv" />
+        <item itemvalue="TestNG.AddToCart3ItemsFromHomePageAfterLogInItemCsv.addToCart3ItemsFromHomePageAfterLogInItemParam" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -232,13 +351,59 @@
       <option name="project" value="LOCAL" />
       <updated>1678283268641</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="login package added">
+      <created>1678283501312</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678283501312</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Test AddToCart3ItemsFromHomePageAfterLogInItemCsv added">
+      <created>1678369525052</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678369525052</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Test AddToCart3ItemsFromHomePageAfterLogInItemFinalXpathProducts added">
+      <created>1678369579897</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678369579897</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Test CheckOutWith6ProductsWithoutApprovalWindowAndCompletedOrderDetails added">
+      <created>1678369686894</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1678369686894</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Test CheckOutWith6ProductsWithoutApprovalWindowAndCompletedOrderDetailsWithLoginCatItemsCsv added">
+      <created>1678369722446</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1678369722446</updated>
+    </task>
+    <task id="LOCAL-00029" summary="testingCourseProjectTaskOnly.xml added">
+      <created>1678451452217</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1678451452217</updated>
+    </task>
+    <task id="LOCAL-00030" summary="goToHomePageAfterAddToCart(); method added">
+      <created>1678975140632</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1678975140632</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Course project: structure" />
-    <MESSAGE value="New directories added" />
-    <MESSAGE value="BasePage added" />
     <MESSAGE value="config.properties added" />
     <MESSAGE value="correctCredentials.csv added" />
     <MESSAGE value="wrongCredentials.csv added" />
@@ -257,6 +422,13 @@
     <MESSAGE value="TestUtil added" />
     <MESSAGE value="LogInTestCorrectCredentials added" />
     <MESSAGE value="LogInTestWrongCredentials added" />
-    <option name="LAST_COMMIT_MESSAGE" value="LogInTestWrongCredentials added" />
+    <MESSAGE value="login package added" />
+    <MESSAGE value="Test AddToCart3ItemsFromHomePageAfterLogInItemCsv added" />
+    <MESSAGE value="Test AddToCart3ItemsFromHomePageAfterLogInItemFinalXpathProducts added" />
+    <MESSAGE value="Test CheckOutWith6ProductsWithoutApprovalWindowAndCompletedOrderDetails added" />
+    <MESSAGE value="Test CheckOutWith6ProductsWithoutApprovalWindowAndCompletedOrderDetailsWithLoginCatItemsCsv added" />
+    <MESSAGE value="testingCourseProjectTaskOnly.xml added" />
+    <MESSAGE value="goToHomePageAfterAddToCart(); method added" />
+    <option name="LAST_COMMIT_MESSAGE" value="goToHomePageAfterAddToCart(); method added" />
   </component>
 </project>
